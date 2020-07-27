@@ -63,8 +63,6 @@ def main():
 			print('We have obtained the final bbxs and generated new gnd.')
 		else:
 			NMS(dataset = args.dataset, bbxs_init = bbxs_init, gpu = args.gpu_id, iteration = iteration)
-		# nms_info_dig(dataset = args.dataset, bbxs_init = bbxs_init, gpu = args.gpu_id, iteration = iteration)
-		# object discovery
 
 if __name__ == '__main__':
     main()
